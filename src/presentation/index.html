@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="../">
+
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no, minimal-ui"/>
+    
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700,900" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="css/bootstrap.extension.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" />
+    <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
+    <style>
+        .presentation-entry{padding: 0 15px; max-width: 410px; margin: 0 auto;}
+        .presentation-content{padding: 15px 0 30px 0;}
+        .features-item-wrapper{padding-bottom: 50px;}
+        .features-item-wrapper:nth-child(3n+1){clear: both;}
+        .features-item-margin{margin-top: -50px;}
+        /* Tablets (>=768px)*/
+        @media (max-width: 991px) {
+            .features-item-wrapper:nth-child(3n+1){clear: none;}
+            .features-item-wrapper:nth-child(2n+1){clear: both;}
+        }
+        /*Phones (<768px)*/
+        @media (max-width: 767px) {
+            .features-item-wrapper{padding-bottom: 30px;}
+            .features-item-margin{margin-top: -30px;}
+        }
+
+        .mouseover-1 img:nth-child(2) {transform: scale(.9); -webkit-transform: scale(.9);}
+        .mouseover-1:hover img:nth-child(2) {transform: scale(1); -webkit-transform: scale(1);}
+    </style>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+  	<title>IVY</title>
+</head>
+<body>
+
+    <!-- LOADER -->
+    <div id="loader-wrapper"></div>
+
+    <!-- HEADER -->
+    <header class="type-3 transparent light">
+        <div class="header-wrapper">
+            <a id="logo" href="index1.html"><img src="img/logo-1.png" alt="" /></a>
+            <div class="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="follow style-1">
+                <a class="entry" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a class="entry" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                <a class="entry" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                <a class="entry" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+            </div>
+        </div>
+        <div class="navigation-wrapper">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index1.html">Home</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="index1.html">Homepage 1</a></li>
+                            <li><a href="index2.html">Homepage 2</a></li>
+                            <li><a href="index3.html">Homepage 3</a></li>
+                            <li><a href="index4.html">Homepage 4</a></li>
+                            <li><a href="index5.html">Homepage 5</a></li>
+                            <li><a href="index6.html">Homepage 6</a></li>
+                            <li><a href="index7.html">Homepage 7</a></li>
+                            <li><a href="index8.html">Homepage 8</a></li>
+                            <li><a href="index9.html">Homepage 9</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="about1.html">About us</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="about1.html">About us 1</a></li>
+                            <li><a href="about2.html">About us 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="services1.html">Services</a></li>
+                    <li>
+                        <a href="portfolio1.html">Portfolio</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="portfolio1.html">Portfolio landing 1</a></li>
+                            <li><a href="portfolio2.html">Portfolio landing 2</a></li>
+                            <li><a href="portfolio3.html">Portfolio landing 3</a></li>
+                            <li><a href="portfolio4.html">Portfolio landing 4</a></li>
+                            <li><a href="portfolio5.html">Portfolio landing 5</a></li>
+                            <li><a href="portfoliodetail1.html">Portfolio detail</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="blog1.html">Blog</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="blog1.html">Blog landing</a></li>
+                            <li><a href="blogdetail1.html">Blog detail</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="contact1.html">Contact us</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="contact1.html">Contact 1</a></li>
+                            <li><a href="contact2.html">Contact 2</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="shop1.html">Shop</a>
+                        <div class="toggle-menu"></div>
+                        <ul>
+                            <li><a href="shop1.html">Shop sidebar left</a></li>
+                            <li><a href="shop2.html">Shop sidebar right</a></li>
+                            <li><a href="shop3.html">Shop no sidebar</a></li>
+                            <li><a href="shop4.html">Shop full width</a></li>
+                            <li><a href="shopdetail1.html">Shop detail sidebar left</a></li>
+                            <li><a href="shopdetail2.html">Shop detail sidebar right</a></li>
+                            <li><a href="shopdetail3.html">Shop detail no sidebart</a></li>
+                            <li><a href="cart.html">Shopping cart</a></li>
+                            <li><a href="checkout.html">Checkout</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="cart.html">
+                            <span class="cart-icon">
+                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                <span class="cart-label">5</span>
+                            </span>
+                            <span class="cart-title">$1195.00</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="open-popup" data-rel="1"><i class="fa fa-user" aria-hidden="true"></i> Login</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="banner-shortcode" style="background-image: url(presentation/img/background.jpg);">
+        <div class="banner-frame border-image" style="border-image-source: url(presentation/img/background_.jpg);"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="align">
+                        <h1 class="h1 light">We are IVY</h1>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa light large">creative portfolio and e-commerce template <br/> for creative people</div>
+                        <div class="empty-space col-xs-b30"></div>
+                        <a class="button light" href="#">choose this theme</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="content-block">
+
+        <div class="container">
+
+            <div class="empty-space col-xs-b40 col-sm-b80"></div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <article class="sa">
+                        <h3>DEMOS</h3>
+                        <p>We've prepared for you very different and innovative pages. <br/> Select the most comfortable for you now!</p>
+                    </article>
+                    <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                </div>
+                <div class="col-md-12 text-center">
+                    <div class="sorting-menu">
+                        <div class="title">All</div>
+                        <div class="toggle">
+                            <a class="active" data-filter="*"><span class="text">All</span><span class="number">31</span></a>
+                            <a data-filter=".filter-1"><span class="text">Homepages</span><span class="number">9</span></a>
+                            <a data-filter=".filter-2"><span class="text">Pages</span><span class="number">5</span></a>
+                            <a data-filter=".filter-3"><span class="text">Portfolio</span><span class="number">6</span></a>
+                            <a data-filter=".filter-4"><span class="text">Blog</span><span class="number">2</span></a>
+                            <a data-filter=".filter-5"><span class="text">Shop</span><span class="number">9</span></a>
+                        </div>
+                    </div>
+                    <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                </div>
+            </div>
+            
+
+            <div class="sorting-container portfolio-1">
+                <div class="grid-sizer w33"></div>
+
+
+
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index1.html" target="_blank">
+                            <img src="presentation/img/1.jpg" alt="" />
+                            <img src="presentation/img/1.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index1.html" target="_blank">Homepage 1</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index2.html" target="_blank">
+                            <img src="presentation/img/2.jpg" alt="" />
+                            <img src="presentation/img/2.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index2.html" target="_blank">Homepage 2</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index3.html" target="_blank">
+                            <img src="presentation/img/3.jpg" alt="" />
+                            <img src="presentation/img/3.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index3.html" target="_blank">Homepage 3</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index4.html" target="_blank">
+                            <img src="presentation/img/4.jpg" alt="" />
+                            <img src="presentation/img/4.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index4.html" target="_blank">Homepage 4</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index5.html" target="_blank">
+                            <img src="presentation/img/5.jpg" alt="" />
+                            <img src="presentation/img/5.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index5.html" target="_blank">Homepage 5</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index6.html" target="_blank">
+                            <img src="presentation/img/6.jpg" alt="" />
+                            <img src="presentation/img/6.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index6.html" target="_blank">Homepage 6</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index7.html" target="_blank">
+                            <img src="presentation/img/7.jpg" alt="" />
+                            <img src="presentation/img/7.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index7.html" target="_blank">Homepage 7</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index8.html" target="_blank">
+                            <img src="presentation/img/8.jpg" alt="" />
+                            <img src="presentation/img/8.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index8.html" target="_blank">Homepage 8</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-1">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="index9.html" target="_blank">
+                            <img src="presentation/img/9.jpg" alt="" />
+                            <img src="presentation/img/9.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="index9.html" target="_blank">Homepage 9</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="about1.html" target="_blank">
+                            <img src="presentation/img/11.jpg" alt="" />
+                            <img src="presentation/img/11.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="about1.html" target="_blank">About us 1</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="about2.html" target="_blank">
+                            <img src="presentation/img/32.jpg" alt="" />
+                            <img src="presentation/img/32.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="about2.html" target="_blank">About us 2</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="services1.html" target="_blank">
+                            <img src="presentation/img/12.jpg" alt="" />
+                            <img src="presentation/img/12.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="services1.html" target="_blank">Services</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="contact1.html" target="_blank">
+                            <img src="presentation/img/13.jpg" alt="" />
+                            <img src="presentation/img/13.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="contact1.html" target="_blank">Contact 1</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="contact2.html" target="_blank">
+                            <img src="presentation/img/14.jpg" alt="" />
+                            <img src="presentation/img/14.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="contact2.html" target="_blank">Contact 2</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfolio1.html" target="_blank">
+                            <img src="presentation/img/10.jpg" alt="" />
+                            <img src="presentation/img/10.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfolio1.html" target="_blank">Portfolio 1</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfolio2.html" target="_blank">
+                            <img src="presentation/img/15.jpg" alt="" />
+                            <img src="presentation/img/15.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfolio2.html" target="_blank">Portfolio 2</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfolio3.html" target="_blank">
+                            <img src="presentation/img/16.jpg" alt="" />
+                            <img src="presentation/img/16.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfolio3.html" target="_blank">Portfolio 3</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfolio4.html" target="_blank">
+                            <img src="presentation/img/17.jpg" alt="" />
+                            <img src="presentation/img/17.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfolio4.html" target="_blank">Portfolio 4</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfolio5.html" target="_blank">
+                            <img src="presentation/img/18.jpg" alt="" />
+                            <img src="presentation/img/18.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfolio5.html" target="_blank">Portfolio 5</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-3">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="portfoliodetail1.html" target="_blank">
+                            <img src="presentation/img/19.jpg" alt="" />
+                            <img src="presentation/img/19.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="portfoliodetail1.html" target="_blank">Portfolio detail</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sorting-item w33 filter-4">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="blog1.html" target="_blank">
+                            <img src="presentation/img/20.jpg" alt="" />
+                            <img src="presentation/img/20.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="blog1.html" target="_blank">Blog</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-4">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="blogdetail1.html" target="_blank">
+                            <img src="presentation/img/21.jpg" alt="" />
+                            <img src="presentation/img/21.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="blogdetail1.html" target="_blank">Blog detail</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shop1.html" target="_blank">
+                            <img src="presentation/img/22.jpg" alt="" />
+                            <img src="presentation/img/22.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shop1.html" target="_blank">Shop sidebar left</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shop2.html" target="_blank">
+                            <img src="presentation/img/23.jpg" alt="" />
+                            <img src="presentation/img/23.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shop2.html" target="_blank">Shop sidebar right</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shop3.html" target="_blank">
+                            <img src="presentation/img/24.jpg" alt="" />
+                            <img src="presentation/img/24.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shop3.html" target="_blank">Shop no sidebar</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shop4.html" target="_blank">
+                            <img src="presentation/img/25.jpg" alt="" />
+                            <img src="presentation/img/25.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shop4.html" target="_blank">Shop full width</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shopdetail1.html" target="_blank">
+                            <img src="presentation/img/26.jpg" alt="" />
+                            <img src="presentation/img/26.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shopdetail1.html" target="_blank">Shop detail sidebar left</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shopdetail2.html" target="_blank">
+                            <img src="presentation/img/27.jpg" alt="" />
+                            <img src="presentation/img/27.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shopdetail2.html" target="_blank">Shop detail sidebar right</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="shopdetail3.html" target="_blank">
+                            <img src="presentation/img/28.jpg" alt="" />
+                            <img src="presentation/img/28.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="shopdetail3.html" target="_blank">Shop detail no sidebar</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="cart.html" target="_blank">
+                            <img src="presentation/img/29.jpg" alt="" />
+                            <img src="presentation/img/29.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="cart.html" target="_blank">Shopping cart</a></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sorting-item w33 filter-5">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="checkout.html" target="_blank">
+                            <img src="presentation/img/30.jpg" alt="" />
+                            <img src="presentation/img/30.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="checkout.html" target="_blank">Checkout</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="sorting-item w33 filter-2">
+                    <div class="presentation-entry">
+                        <a class="mouseover-1" href="elements.html" target="_blank">
+                            <img src="presentation/img/31.jpg" alt="" />
+                            <img src="presentation/img/31.jpg" alt="" />
+                        </a>
+                        <div class="presentation-content">
+                            <div class="h6"><span class="ht-2"><a href="elements.html" target="_blank">Elements</a></span></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="empty-space col-xs-b55 col-sm-b110"></div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <article class="sa">
+                        <h3>IVY IS UNIQUE</h3>
+                        <p>Because it has so many features!</p>
+                    </article>
+                    <div class="empty-space col-xs-b25 col-sm-b50"></div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-1.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>100% RESPONSIVE</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">With Modesto every pixel on your site will respond the way it should no matter what device is</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-2.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>CSS / HTML VALIDATION</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">We care about our quality and your comfort. No more errors and broken elements</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-3.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>GOOGLE FONTS</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">More than 700+ fonts at your disposal. Select the font that you like the most</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-4.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>FONT AWESOME INCLUDED</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">Font Awesome gives you scalable vector icons that can instantly be customized</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-5.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>BOOTSTRAP 3</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">Modesto is built with Bootstrap 3 meaning it looks perfect on mobile phones</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-6.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>EASY CUSTOMIZATION</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">We take greart care to create IT solutions with well-structured, modular and clean code</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-7.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>FILTERABLE PORTFOLIO</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">Gallery has a user friendly interface and provides an easy way to display your works</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-8.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>PARALLAX</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">Modesto supports multiple parallax effect, make your site look uniqe and modern</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-9.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>WORKING CONTACT FORM</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">You can use this for any comments or questions about your company or brand in any place on template</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-10.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>SWIPER FOR MOBILE DEVICES</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">Union always make sure that our themes are easy to navigate on any devices</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-11.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>AMAZING HOVER EFFECTS</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">So you can create cool animations with (almost) any element of your website</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-12.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>WELL DOCUMENTED</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">We provide step by step user guide for more better understanding our theme</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-13.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>QUALITY SUPPORT</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">we will help you resolve any issues that have arisen on our template and give quick answer</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 features-item-wrapper">
+                    <div class="features-item text-center">
+                        <img src="presentation/img/icon-14.png" alt="" />
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="h6"><b>REGULAR UPDATES</b></div>
+                        <div class="empty-space col-xs-b15"></div>
+                        <div class="sa small">We always try to give users regular updates of our theme and quick correction of bugs</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="features-item-margin"></div>
+
+            <div class="empty-space col-xs-b55 col-sm-b110"></div>
+
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <article class="sa">
+                        <h3>THANK YOU FOR WATCHING!</h3>
+                        <p>Now you've seen all the demos and we really hope you enjoyed them. So don't miss your chance! And</p>
+                    </article>
+                    <div class="empty-space col-xs-b35"></div>
+                    <a class="button" href="#"><b>buy it now!</b></a>
+                </div>
+            </div>
+    
+        </div>
+
+        <!-- FOOTER -->
+        <footer>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-xs-text-center col-md-text-left">
+                        <div class="copyright sa small">&copy; 2016 All rights reserved. Development by <a href="https://themeforest.net/user/unionagency" target="_blank"><b>UnionAgency</b></a>.</div>  
+                        <div class="col-xs-b15 visible-xs visible-sm"></div>
+                    </div>
+                    <div class="col-md-6 col-xs-text-center col-md-text-right">
+                        <div class="follow style-1">
+                            <a class="entry" href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+                            <a class="entry" href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <a class="entry" href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a class="entry" href="https://plus.google.com/" target="_blank"><i class="fa fa-google-plus"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <div class="popup-wrapper">
+        <div class="bg-layer"></div>
+
+        <div class="popup-content" data-rel="1">
+            <div class="layer-close"></div>
+            <div class="popup-container size-1">
+                <div class="popup-align">
+                    <h3 class="h3 text-center">Log in</h3>
+                    <div class="empty-space col-xs-b30"></div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" value="" type="text" placeholder="Your email" />
+                        <span></span>
+                    </div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" type="password" value="" placeholder="Enter password" />
+                        <span></span>
+                    </div>
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-b10 col-sm-b0">
+                            <div class="empty-space col-sm-b5"></div>
+                            <a class="simple-link open-popup" data-rel="3">Forgot password?</a>
+                            <div class="empty-space col-xs-b5"></div>
+                            <a class="simple-link open-popup" data-rel="2">Register now</a>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <div class="button">submit<input type="submit"/></div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="button-close"></div>
+            </div>
+        </div>
+
+        <div class="popup-content" data-rel="2">
+            <div class="layer-close"></div>
+            <div class="popup-container size-1">
+                <div class="popup-align">
+                    <h3 class="h3 text-center">Register</h3>
+                    <div class="empty-space col-xs-b30"></div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" value="" type="text" placeholder="Your name" />
+                        <span></span>
+                    </div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" value="" type="text" placeholder="Your email" />
+                        <span></span>
+                    </div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" type="password" value="" placeholder="Enter password" />
+                        <span></span>
+                    </div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" type="password" value="" placeholder="Repeat password" />
+                        <span></span>
+                    </div>
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-xs-b10 col-sm-b0">
+                            <div>
+                                <label class="sc">
+                                    <input type="checkbox"><span>I agree with <a href="#">terms of use</a></span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <div class="button">register<input type="submit"/></div>  
+                        </div>
+                    </div>
+                </div>
+                <div class="button-close"></div>
+            </div>
+        </div>
+
+        <div class="popup-content" data-rel="3">
+            <div class="layer-close"></div>
+            <div class="popup-container size-1">
+                <div class="popup-align">
+                    <h3 class="h3 text-center">Reset your password</h3>
+                    <div class="empty-space col-xs-b30"></div>
+                    <div class="simple-input-wrapper">
+                        <input class="simple-input" value="" type="text" placeholder="Your email" />
+                        <span></span>
+                    </div>
+                    <div class="empty-space col-xs-b10 col-sm-b20"></div>
+                    <div class="text-center">
+                        <div class="button">reset<input type="submit"/></div> 
+                    </div>
+                </div>
+                <div class="button-close"></div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="phone-marker visible-xs"></div><div class="tablet-marker visible-sm"></div>
+
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/global.js"></script>
+
+    <script src="js/isotope.pkgd.min.js"></script>
+
+    <!-- lightbox -->
+    <link href="css/simplelightbox.css" rel="stylesheet" type="text/css" />
+    <script src="js/simple-lightbox.min.js"></script>
+
+</body>
+</html>
