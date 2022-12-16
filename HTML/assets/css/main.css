@@ -1933,6 +1933,10 @@ button.mfp-close:before {
 * Section Resume
 **/
 
+.skills-container {
+	display: flex;
+}
+
 .skills-item {
 	margin-top: 25px;
 	font-size: 0;
